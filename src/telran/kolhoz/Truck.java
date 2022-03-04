@@ -24,8 +24,7 @@ public Truck(int load, int nLoads) {
 		}
 	}
 private static synchronized void loadElevator1(int load) {
-	elevator1 += load;
-	
+		elevator1 += load;	
 }
 private static void loadElevator2(int load) {
 	synchronized (mutex) {
